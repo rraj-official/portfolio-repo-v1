@@ -1,7 +1,7 @@
 # Personal portfolio app by Rohit Raj
 
 
-## Link to Websit hosted on GH
+## Link to Website hosted on GH
 
 https://rraj-official.github.io/portfolio-repo-v1/
 
