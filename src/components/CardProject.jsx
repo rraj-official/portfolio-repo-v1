@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardProject = (props) => {
     return (
-        <a href='http://localhost:3000/'>
+        <a href='http://rraj-official.github.io/foodqueen-webapp/'>
             <div className="max-w-sm w-full lg:max-w-full lg:flex cursor-pointer border border-[#0F172A] rounded">
                 <div
                     className="h-full
