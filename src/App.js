@@ -2,7 +2,7 @@ import Content from "./components/Content";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import ToggleTheme from "./components/ToggleTheme";
-import CardProjectFirst from "./components/CardProjectFirst";
+import CardProject from "./components/CardProject";
 import {lightTheme, darkTheme} from "./data/theme"; //theme objects containing color values
 import { useState } from "react";
 

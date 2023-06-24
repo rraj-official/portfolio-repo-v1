@@ -1,5 +1,22 @@
 import React from 'react'
-import CardProjectFirst from './CardProjectFirst'
+import CardProject from './CardProject'
+
+
+const projectCards = [
+  {
+    name: "Personal Portfolio",
+    description: "Built a dynamic personal portfolio website using ReactJS and TailwindCSS, incorporating custom components and state variables for seamless user experience demonstrating expertise in front-end development using modern frameworks and libraries." ,
+    poweredby:"ReactJS",
+    imgsrc:"https://i.imgur.com/FLU12uz.png"
+  },
+  {
+    name: "Foodqueen Website",
+    description: "Freelancing project for a local maggi business in my college. Features online food ordering and integrated payment management system built using React states and hooks. Developed with React and TailwindCSS for a fast, clean, and mobile-first UI.",
+    poweredby:"React and Tailwind",
+    imgsrc:"https://i.imgur.com/LXQxPuX.jpeg"
+  }
+]
+
 
 export default function Content(prop) {
   return (
@@ -22,7 +39,7 @@ export default function Content(prop) {
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <img
               className="w-[48rem] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-              src="https://i.imgur.com/2rCrnDD.png"
+              src="https://i.imgur.com/Rp5sGYX.png"
               alt=""
             />
           </div>
@@ -58,7 +75,9 @@ export default function Content(prop) {
                   </li>
                 </ul>
                 <h2 id='projects' className="py-8 text-3xl font-bold tracking-tight text-theme-color sm:text-4xl">Projects</h2>
-                  <CardProjectFirst />
+                  <CardProject card={projectCards[0]} />
+                  <div className="py-4"></div>
+                  <CardProject card={projectCards[1]}/>
                 <h2 id='experience' className="pt-8 text-3xl font-bold tracking-tight text-theme-color sm:text-4xl">Experience</h2>
                 <p className="mt-6">
                   Looking forward to fill this section with lots of new experiences as opportunities arrive.
