@@ -12,5 +12,5 @@ Hi, I am Rohit. This is my first-ever React WebApp and my first project. I built
 + **Custom Theme Kit**: Uses a theme prop that is passed either directly or through several functions down the pipeline of components to theme the entire app from a single point. Built entirely from scratch utilising ReactJS's one-way child-parent component relationship.
 + **Hover buttons**: Styled using Tailwind CSS. Entire website boasts the utility-first classes of tailwind CSS for quick development.
 + **Sticky NavBar**: Also a tailwind CSS styled react component that features a change theme button built using a custom theme kit.
-+ **Sticky Snapshot**: Sticky snapshot built using tailwind that sticks to the side and shows realtime snapshots of my github page.
++ **Sticky Snapshot**:  Displaying real-time snapshots of my GitHub page, this Tailwind CSS-powered component remains fixed to the side, giving visitors a glimpse of my latest projects.
 
